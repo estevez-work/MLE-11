@@ -1,0 +1,69 @@
+airflow
+├── airflow-webserver.pid
+├── airflow.cfg
+├── airflow.db
+├── dags
+│   ├── __pycache__
+│   │   └── walmart-ml-workflow.cpython-39.pyc
+│   └── walmart-ml-workflow.py
+├── dat
+│   ├── train-store1.csv
+│   └── train_comb.csv
+├── logs
+│   ├── dag_processor_manager
+│   │   └── dag_processor_manager.log
+│   └── scheduler
+│       ├── 2023-01-13
+│       │   ├── native_dags
+│       │   │   └── example_dags
+│       │   │       ├── example_bash_operator.py.log
+│       │   │       ├── example_branch_datetime_operator.py.log
+│       │   │       ├── example_branch_day_of_week_operator.py.log
+│       │   │       ├── example_branch_labels.py.log
+│       │   │       ├── example_branch_operator.py.log
+│       │   │       ├── example_branch_operator_decorator.py.log
+│       │   │       ├── example_branch_python_dop_operator_3.py.log
+│       │   │       ├── example_complex.py.log
+│       │   │       ├── example_dag_decorator.py.log
+│       │   │       ├── example_datasets.py.log
+│       │   │       ├── example_external_task_marker_dag.py.log
+│       │   │       ├── example_kubernetes_executor.py.log
+│       │   │       ├── example_latest_only.py.log
+│       │   │       ├── example_latest_only_with_trigger.py.log
+│       │   │       ├── example_local_kubernetes_executor.py.log
+│       │   │       ├── example_nested_branch_dag.py.log
+│       │   │       ├── example_passing_params_via_test_command.py.log
+│       │   │       ├── example_python_operator.py.log
+│       │   │       ├── example_sensor_decorator.py.log
+│       │   │       ├── example_sensors.py.log
+│       │   │       ├── example_short_circuit_decorator.py.log
+│       │   │       ├── example_short_circuit_operator.py.log
+│       │   │       ├── example_skip_dag.py.log
+│       │   │       ├── example_sla_dag.py.log
+│       │   │       ├── example_subdag_operator.py.log
+│       │   │       ├── example_task_group.py.log
+│       │   │       ├── example_task_group_decorator.py.log
+│       │   │       ├── example_time_delta_sensor_async.py.log
+│       │   │       ├── example_trigger_controller_dag.py.log
+│       │   │       ├── example_trigger_target_dag.py.log
+│       │   │       ├── example_xcom.py.log
+│       │   │       ├── example_xcomargs.py.log
+│       │   │       ├── plugins
+│       │   │       │   └── workday.py.log
+│       │   │       ├── subdags
+│       │   │       │   └── subdag.py.log
+│       │   │       ├── tutorial.py.log
+│       │   │       ├── tutorial_dag.py.log
+│       │   │       ├── tutorial_taskflow_api.py.log
+│       │   │       └── tutorial_taskflow_api_virtualenv.py.log
+│       │   └── walmart-ml-workflow.py.log
+│       └── latest -> /Users/francisco/airflow/logs/scheduler/2023-01-13
+├── models
+│   └── train-store1.joblib
+├── scripts
+│   ├── get_store_data.py
+│   └── train.py
+├── standalone_admin_password.txt
+└── webserver_config.py
+
+15 directories, 52 files
