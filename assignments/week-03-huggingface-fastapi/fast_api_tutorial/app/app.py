@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+<<<<<<< HEAD
 from pydantic import BaseModel
 from transformers import pipeline
 from typing import List
@@ -29,6 +30,15 @@ def echo(text_to_translate: TextToTranslate):
 def translate(texts_to_translate: TextsToTranslate):
     return {"message": pipeline(texts_to_translate.input_texts)}    
 
+=======
+
+app = FastAPI()
+
+@app.get("/")
+def index():
+    return {"message": "Hello World"}
+    
+>>>>>>> WDBranch
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)

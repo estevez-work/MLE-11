@@ -7,9 +7,15 @@ from airflow.operators.bash import BashOperator
 with DAG(
     'walmart-ml-workflow',
     default_args={
+<<<<<<< HEAD
         'owner': 'Francisco Estevez', # YOUR NAME HERE
         'depends_on_past': False,
         'email': ['francisco@estevez.work'], # YOUR EMAIL HERE
+=======
+        'owner': 'Flora Xu', # YOUR NAME HERE
+        'depends_on_past': False,
+        'email': ['flora@fourthbrain.ai'], # YOUR EMAIL HERE
+>>>>>>> WDBranch
         'email_on_failure': False,
         'email_on_retry': False,
         'retries': 1,
@@ -25,12 +31,20 @@ with DAG(
     # BashOperator defines tasks that execute bash scripts. In this case, we run Python scripts for each task.
     get_store_data = BashOperator(
         task_id='get_store_data',
+<<<<<<< HEAD
         bash_command='python ~/airflow/scripts/get_store_data.py',
+=======
+        bash_command='python3 ~/airflow/scripts/get_store_data.py',
+>>>>>>> WDBranch
     )
     train = BashOperator(
         task_id='train',
         depends_on_past=False,
+<<<<<<< HEAD
         bash_command='python ~/airflow/scripts/train.py',
+=======
+        bash_command='python3 ~/airflow/scripts/train.py',
+>>>>>>> WDBranch
         retries=3,
     )
 
