@@ -129,3 +129,14 @@ dmypy.json
 .pyre/
 .DS_Store
 */.DS_Store
+
+
+# Keys
+.pem
+assignments/week-03-huggingface-fastapi/fast_api_tutorial/app/.DS_Store
+assignments/.DS_Store
+assignments/week-03-huggingface-fastapi/fast_api_tutorial/app/.DS_Store
+assignments/.DS_Store
+assignments/week-03-huggingface-fastapi/fast_api_tutorial/app/.DS_Store
+assignments/.DS_Store
+assignments/week-03-huggingface-fastapi/fast_api_tutorial/app/.DS_Store
